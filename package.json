@@ -1,0 +1,30 @@
+{
+  "name": "ucmusteritanim",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.3",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "babel src -d build",
+    "prepare": "yarn run build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "musteri tanim adını gösteren ve temel bilgilerini veren component",
+  "main": "build/index.js",
+  "repository": "https://github.com/monderable32/ucmusteritanim.git",
+  "author": "Mehmet Onder",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
