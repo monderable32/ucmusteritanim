@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, FormControl, InputGroup, Button, Col, Glyphicon } from 'react-bootstrap'
-import ReactDOM from 'react-dom'
+//import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types';
 
 export default class UcMusteriTanim extends Component {
@@ -136,8 +136,8 @@ export default class UcMusteriTanim extends Component {
 
 UcMusteriTanim.propTypes = {
     MusteriInfoDelegate: PropTypes.func
-}
+}/*
 ReactDOM.render(
     <UcMusteriTanim MusteriInfoDelegate={(musteri)=>{console.log("Musteri Kisa Ismi:", musteri.kisaIsim)}}/>,
     document.getElementById('root')
-);
+);*/
